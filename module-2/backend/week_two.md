@@ -27,10 +27,18 @@ end
 Now how would you find the owner of the team with an id of 4?
 
 5. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
-6. Define foreign key, primary key, and schema.
-7. Describe the relationship between a foreign key on one table and a primary key on another table.
-8. What are the parts of an HTTP response?
+>* Team.find(4).owner
 
+6. Define foreign key, primary key, and schema.
+>* Foreign key: The id of the corresponding object
+>* Primary key: The id OF the object
+>* Schema: List of the tables for objects
+
+7. Describe the relationship between a foreign key on one table and a primary key on another table.
+>* Foreign key on Team would be the primary key on owner.
+
+8. What are the parts of an HTTP response?
+>* When a website URL starting with http:// is entered in a web browser from a computer (client), a request is being sent to the web server which host the website. The web server in turns returns a response as a HTML page
 
 ### Optional Questions
 
